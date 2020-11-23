@@ -1,6 +1,5 @@
 # JavaScript Simple Calculator
 
-
 ### Calculator [Live Preview](https://maciejpieczarka.github.io/calculator_js/)
 
 ## Table of contents
