@@ -13,15 +13,15 @@ body
     width: 100%;
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
 }
 
 #container
 {
-    width: 1000px;
-    height: 550px;
+    width: 100%;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,3 +192,90 @@ footer > h1 > a > i
     padding: 20px 40px;
     font-size: 40px;
 }
+
+@media(max-width: 368px)
+{
+    #calculator 
+    {
+        width: 300px;
+        height: 500px;
+    }
+
+    #result
+    {
+        height: 100px;
+    }
+
+    #history
+    {
+        height: 30%;
+        width: 100%;
+    }
+
+    #output
+    {
+        height: 60%;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .operator, .number, .empty
+    {
+        width: 45px;
+        height: 45px;
+    }
+
+    footer
+    {
+        display: none;
+    }
+
+    #container
+    {
+        height: 100vh;
+    }
+}
+
+@media(max-width: 300px)
+{
+    #calculator 
+    {
+        width: 270px;
+        height: 470px;
+    }
+
+    #result
+    {
+        height: 70px;
+    }
+
+    #history
+    {
+        height: 10px;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    #output
+    {
+        height: 40px;
+    }
+
+    .operator, .number, .empty
+    {
+        width: 36px;
+        height: 36px;
+        font-size: 15px;
+    }
+
+    footer
+    {
+        display: none;
+    }
+
+    #container
+    {
+        height: 100vh;
+    }
+}
+
